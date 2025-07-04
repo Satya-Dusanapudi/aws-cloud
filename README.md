@@ -12,3 +12,10 @@ Steps covered:
 - Format to ext4
 - Mount to /mnt/mydata
 - Setup auto-mount using /etc/fstab
+### ✅ Day 9: CloudWatch Custom Metrics from EC2
+
+- Launched new EC2 in us-east-1d for CloudWatch testing.
+- Installed and configured CloudWatch agent using wizard.
+- Selected metrics: CPU, Memory, Disk, Swap, DiskIO.
+- Verified metrics under CWAgent namespace in CloudWatch.
+- Understood EC2 instance IAM role requirement for full metadata integration.
